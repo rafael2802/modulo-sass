@@ -1,0 +1,8 @@
+.logo{
+	@include layout-topo(0,none,$cor-geral)
+	width: 100px;
+	line-height: 55px;
+	text-align: center;
+	float: left;
+	font-size: 28px;
+}

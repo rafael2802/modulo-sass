@@ -1,0 +1,18 @@
+ul.menu{
+	width: 240px;
+	float: right;
+	li{
+		float: left;
+		list-style: none;
+		a{
+			@include layout-topo(0,$fundo-menu,$cor-menu)
+			text-transform: uppercase;
+			font-family: $fonte;
+			text-decoration: none;
+			padding: 6px 10px;
+			&:hover{
+				@include layout-topo(0,$fundo-hover-menu,$cor-hover-menu);
+			}
+		}
+	}
+}

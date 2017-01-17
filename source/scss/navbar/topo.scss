@@ -1,0 +1,6 @@
+.topo{
+	width: 600px;
+	height: 50px;
+	font-family: $fonte;
+	@include layout-topo(1px solid $cor-geral,#fff,$cor-geral)
+}

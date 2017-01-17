@@ -1,0 +1,5 @@
+@mixin layout-topo($borda, $fundo, $cor){
+	border: $borda;
+	background-color: $fundo;
+	color: $cor;
+}
