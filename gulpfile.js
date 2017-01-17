@@ -17,6 +17,6 @@ gulp.task('htmlmin', function() {
 });
 
 gulp.task('background',function(){
-	gulp.watch('./source/scss/*.scss',['geracss']);
+	gulp.watch('./source/scss/**/*.scss',['geracss']);
 	gulp.watch('./source/*.html',['htmlmin']);
 });
